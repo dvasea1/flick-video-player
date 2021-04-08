@@ -11,7 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  video_player: 1.0.1
+  video_player:
+    git:
+      url: https://github.com/yogeshk25/plugins.git
+      path: packages/video_player/video_player
+
   provider: ^4.0.5
   wakelock : ^0.2.1+1
 
